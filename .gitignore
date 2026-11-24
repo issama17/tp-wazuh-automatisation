@@ -1,0 +1,26 @@
+# Clés d'API et variables d'environnement confidentielles
+.env
+
+# Cache Python et compilation
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environnements virtuels
+venv/
+env/
+ENV/
+.venv/
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers système et logs temporaires
+*.log
+.DS_Store
+Thumbs.db

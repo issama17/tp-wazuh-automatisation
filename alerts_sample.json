@@ -1,0 +1,2898 @@
+[
+  {
+    "timestamp": "2026-11-24T14:00:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41200",
+      "srcuser": "root"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:02:00.000Z",
+    "rule": {
+      "id": "550",
+      "level": 7,
+      "description": "Integrity checksum changed",
+      "groups": [
+        "syscheck"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "target": "/opt/app/config.ini"
+    },
+    "location": "syscheck"
+  },
+  {
+    "timestamp": "2026-11-24T14:02:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41201",
+      "srcuser": "admin"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:04:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41202",
+      "srcuser": "test"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:05:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user"
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "100.95.52.73",
+      "srcuser": "issam"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:06:00.000Z",
+    "rule": {
+      "id": "5715",
+      "level": 3,
+      "description": "sshd: authentication success"
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "100.95.52.73",
+      "srcuser": "ubuntu"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:06:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41203",
+      "srcuser": "oracle"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:07:00.000Z",
+    "rule": {
+      "id": "554",
+      "level": 5,
+      "description": "File added to the system",
+      "groups": [
+        "syscheck"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "target": "/opt/app/backdoor.sh"
+    },
+    "location": "syscheck"
+  },
+  {
+    "timestamp": "2026-11-24T14:08:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41204",
+      "srcuser": "deploy"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:10:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "100.121.101.97",
+      "srcport": "33980",
+      "srcuser": "fakeuser"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:10:03.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "100.121.101.97",
+      "srcport": "33981",
+      "srcuser": "fakeuser"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:10:06.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "100.121.101.97",
+      "srcport": "33982",
+      "srcuser": "fakeuser"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:10:09.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "100.121.101.97",
+      "srcport": "33983",
+      "srcuser": "fakeuser"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:10:12.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "100.121.101.97",
+      "srcport": "33984",
+      "srcuser": "fakeuser"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:10:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41205",
+      "srcuser": "ansible"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:10:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "100.121.101.97",
+      "srcport": "33985",
+      "srcuser": "fakeuser"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:10:18.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "100.121.101.97",
+      "srcport": "33986",
+      "srcuser": "fakeuser"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:10:21.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "100.121.101.97",
+      "srcport": "33987",
+      "srcuser": "fakeuser"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:10:24.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "100.121.101.97",
+      "srcport": "33988",
+      "srcuser": "fakeuser"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:10:27.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "100.121.101.97",
+      "srcport": "33989",
+      "srcuser": "fakeuser"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:10:30.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "100.121.101.97",
+      "srcport": "33990",
+      "srcuser": "fakeuser"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:10:33.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "100.121.101.97",
+      "srcport": "33991",
+      "srcuser": "fakeuser"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:10:45.000Z",
+    "rule": {
+      "id": "5712",
+      "level": 10,
+      "description": "sshd: brute force trying to get access to the system. Non existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Brute Force"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:11:00.000Z",
+    "rule": {
+      "id": "5712",
+      "level": 10,
+      "description": "sshd: brute force trying to get access to the system. Non existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "100.121.101.97"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:11:30.000Z",
+    "rule": {
+      "id": "5503",
+      "level": 5,
+      "description": "PAM: User login failed",
+      "groups": [
+        "syslog",
+        "pam"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "100.121.101.97",
+      "srcuser": "fakeuser"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:12:00.000Z",
+    "rule": {
+      "id": "553",
+      "level": 7,
+      "description": "File deleted",
+      "groups": [
+        "syscheck"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "target": "/opt/app/backdoor.sh"
+    },
+    "location": "syscheck"
+  },
+  {
+    "timestamp": "2026-11-24T14:12:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41206",
+      "srcuser": "user"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:14:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41207",
+      "srcuser": "guest"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:15:10.000Z",
+    "rule": {
+      "id": "31101",
+      "level": 5,
+      "description": "Apache: Directory traversal attempt",
+      "groups": [
+        "web",
+        "accesslog",
+        "attack"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "45.33.32.156",
+      "url": "/api/v1/user?id=1%20OR%201=1",
+      "action": "blocked"
+    },
+    "location": "/var/log/nginx/access.log"
+  },
+  {
+    "timestamp": "2026-11-24T14:16:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41208",
+      "srcuser": "git"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:17:00.000Z",
+    "rule": {
+      "id": "92031",
+      "level": 3,
+      "description": "Discovery activity executed via net user",
+      "groups": [
+        "sysmon"
+      ]
+    },
+    "agent": {
+      "id": "002",
+      "name": "windows-host",
+      "ip": "192.168.3.200"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "target": "C:\\Windows\\System32\\net.exe"
+    },
+    "location": "EventChannel"
+  },
+  {
+    "timestamp": "2026-11-24T14:17:10.000Z",
+    "rule": {
+      "id": "31103",
+      "level": 7,
+      "description": "SQL injection attempt in query string",
+      "groups": [
+        "web",
+        "accesslog",
+        "attack"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "45.33.32.156",
+      "url": "/api/v1/user?id=1%20OR%201=1",
+      "action": "blocked"
+    },
+    "location": "/var/log/nginx/access.log"
+  },
+  {
+    "timestamp": "2026-11-24T14:18:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41209",
+      "srcuser": "postgres"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:19:10.000Z",
+    "rule": {
+      "id": "31106",
+      "level": 6,
+      "description": "XSS attempt detected in HTTP parameter",
+      "groups": [
+        "web",
+        "accesslog",
+        "attack"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "45.33.32.156",
+      "url": "/api/v1/user?id=1%20OR%201=1",
+      "action": "blocked"
+    },
+    "location": "/var/log/nginx/access.log"
+  },
+  {
+    "timestamp": "2026-11-24T14:20:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41210",
+      "srcuser": "root"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:20:45.000Z",
+    "rule": {
+      "id": "5712",
+      "level": 10,
+      "description": "sshd: brute force trying to get access to the system. Non existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Brute Force"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:21:10.000Z",
+    "rule": {
+      "id": "31533",
+      "level": 8,
+      "description": "Web application attack: unauthorized admin access attempt",
+      "groups": [
+        "web",
+        "accesslog",
+        "attack"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "45.33.32.156",
+      "url": "/api/v1/user?id=1%20OR%201=1",
+      "action": "blocked"
+    },
+    "location": "/var/log/nginx/access.log"
+  },
+  {
+    "timestamp": "2026-11-24T14:22:00.000Z",
+    "rule": {
+      "id": "92032",
+      "level": 3,
+      "description": "Suspicious Windows cmd shell execution: whoami",
+      "groups": [
+        "sysmon"
+      ]
+    },
+    "agent": {
+      "id": "002",
+      "name": "windows-host",
+      "ip": "192.168.3.200"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "target": "C:\\Windows\\System32\\whoami.exe"
+    },
+    "location": "EventChannel"
+  },
+  {
+    "timestamp": "2026-11-24T14:22:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41211",
+      "srcuser": "admin"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:23:10.000Z",
+    "rule": {
+      "id": "31101",
+      "level": 5,
+      "description": "Apache: Directory traversal attempt",
+      "groups": [
+        "web",
+        "accesslog",
+        "attack"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "45.33.32.156",
+      "url": "/api/v1/user?id=1%20OR%201=1",
+      "action": "blocked"
+    },
+    "location": "/var/log/nginx/access.log"
+  },
+  {
+    "timestamp": "2026-11-24T14:24:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41212",
+      "srcuser": "test"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:25:10.000Z",
+    "rule": {
+      "id": "31103",
+      "level": 7,
+      "description": "SQL injection attempt in query string",
+      "groups": [
+        "web",
+        "accesslog",
+        "attack"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "45.33.32.156",
+      "url": "/api/v1/user?id=1%20OR%201=1",
+      "action": "blocked"
+    },
+    "location": "/var/log/nginx/access.log"
+  },
+  {
+    "timestamp": "2026-11-24T14:26:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41213",
+      "srcuser": "oracle"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:27:00.000Z",
+    "rule": {
+      "id": "92213",
+      "level": 15,
+      "description": "Executable file dropped in folder commonly used by malware",
+      "groups": [
+        "sysmon"
+      ]
+    },
+    "agent": {
+      "id": "002",
+      "name": "windows-host",
+      "ip": "192.168.3.200"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "target": "AppData\\Local\\Temp\\lab_phase2.bat"
+    },
+    "location": "EventChannel"
+  },
+  {
+    "timestamp": "2026-11-24T14:27:10.000Z",
+    "rule": {
+      "id": "31106",
+      "level": 6,
+      "description": "XSS attempt detected in HTTP parameter",
+      "groups": [
+        "web",
+        "accesslog",
+        "attack"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "45.33.32.156",
+      "url": "/api/v1/user?id=1%20OR%201=1",
+      "action": "blocked"
+    },
+    "location": "/var/log/nginx/access.log"
+  },
+  {
+    "timestamp": "2026-11-24T14:28:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41214",
+      "srcuser": "deploy"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:29:10.000Z",
+    "rule": {
+      "id": "31533",
+      "level": 8,
+      "description": "Web application attack: unauthorized admin access attempt",
+      "groups": [
+        "web",
+        "accesslog",
+        "attack"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "45.33.32.156",
+      "url": "/api/v1/user?id=1%20OR%201=1",
+      "action": "blocked"
+    },
+    "location": "/var/log/nginx/access.log"
+  },
+  {
+    "timestamp": "2026-11-24T14:30:00.000Z",
+    "rule": {
+      "id": "60106",
+      "level": 4,
+      "description": "Windows: Port scan / rapid TCP SYN connection detected",
+      "groups": [
+        "windows",
+        "security"
+      ]
+    },
+    "agent": {
+      "id": "002",
+      "name": "windows-host",
+      "ip": "192.168.3.200"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "192.168.3.150",
+      "srcport": "49200"
+    },
+    "location": "EventChannel"
+  },
+  {
+    "timestamp": "2026-11-24T14:30:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41215",
+      "srcuser": "ansible"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:31:00.000Z",
+    "rule": {
+      "id": "60106",
+      "level": 4,
+      "description": "Windows: Port scan / rapid TCP SYN connection detected",
+      "groups": [
+        "windows",
+        "security"
+      ]
+    },
+    "agent": {
+      "id": "002",
+      "name": "windows-host",
+      "ip": "192.168.3.200"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "192.168.3.150",
+      "srcport": "49201"
+    },
+    "location": "EventChannel"
+  },
+  {
+    "timestamp": "2026-11-24T14:31:10.000Z",
+    "rule": {
+      "id": "31101",
+      "level": 5,
+      "description": "Apache: Directory traversal attempt",
+      "groups": [
+        "web",
+        "accesslog",
+        "attack"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "45.33.32.156",
+      "url": "/api/v1/user?id=1%20OR%201=1",
+      "action": "blocked"
+    },
+    "location": "/var/log/nginx/access.log"
+  },
+  {
+    "timestamp": "2026-11-24T14:32:00.000Z",
+    "rule": {
+      "id": "60106",
+      "level": 4,
+      "description": "Windows: Port scan / rapid TCP SYN connection detected",
+      "groups": [
+        "windows",
+        "security"
+      ]
+    },
+    "agent": {
+      "id": "002",
+      "name": "windows-host",
+      "ip": "192.168.3.200"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "192.168.3.150",
+      "srcport": "49202"
+    },
+    "location": "EventChannel"
+  },
+  {
+    "timestamp": "2026-11-24T14:32:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41216",
+      "srcuser": "user"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:33:00.000Z",
+    "rule": {
+      "id": "60106",
+      "level": 4,
+      "description": "Windows: Port scan / rapid TCP SYN connection detected",
+      "groups": [
+        "windows",
+        "security"
+      ]
+    },
+    "agent": {
+      "id": "002",
+      "name": "windows-host",
+      "ip": "192.168.3.200"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "192.168.3.150",
+      "srcport": "49203"
+    },
+    "location": "EventChannel"
+  },
+  {
+    "timestamp": "2026-11-24T14:33:10.000Z",
+    "rule": {
+      "id": "31103",
+      "level": 7,
+      "description": "SQL injection attempt in query string",
+      "groups": [
+        "web",
+        "accesslog",
+        "attack"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "45.33.32.156",
+      "url": "/api/v1/user?id=1%20OR%201=1",
+      "action": "blocked"
+    },
+    "location": "/var/log/nginx/access.log"
+  },
+  {
+    "timestamp": "2026-11-24T14:34:00.000Z",
+    "rule": {
+      "id": "60106",
+      "level": 4,
+      "description": "Windows: Port scan / rapid TCP SYN connection detected",
+      "groups": [
+        "windows",
+        "security"
+      ]
+    },
+    "agent": {
+      "id": "002",
+      "name": "windows-host",
+      "ip": "192.168.3.200"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "192.168.3.150",
+      "srcport": "49204"
+    },
+    "location": "EventChannel"
+  },
+  {
+    "timestamp": "2026-11-24T14:34:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41217",
+      "srcuser": "guest"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:35:00.000Z",
+    "rule": {
+      "id": "60106",
+      "level": 4,
+      "description": "Windows: Port scan / rapid TCP SYN connection detected",
+      "groups": [
+        "windows",
+        "security"
+      ]
+    },
+    "agent": {
+      "id": "002",
+      "name": "windows-host",
+      "ip": "192.168.3.200"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "192.168.3.150",
+      "srcport": "49205"
+    },
+    "location": "EventChannel"
+  },
+  {
+    "timestamp": "2026-11-24T14:35:10.000Z",
+    "rule": {
+      "id": "31106",
+      "level": 6,
+      "description": "XSS attempt detected in HTTP parameter",
+      "groups": [
+        "web",
+        "accesslog",
+        "attack"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "45.33.32.156",
+      "url": "/api/v1/user?id=1%20OR%201=1",
+      "action": "blocked"
+    },
+    "location": "/var/log/nginx/access.log"
+  },
+  {
+    "timestamp": "2026-11-24T14:36:00.000Z",
+    "rule": {
+      "id": "60106",
+      "level": 4,
+      "description": "Windows: Port scan / rapid TCP SYN connection detected",
+      "groups": [
+        "windows",
+        "security"
+      ]
+    },
+    "agent": {
+      "id": "002",
+      "name": "windows-host",
+      "ip": "192.168.3.200"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "192.168.3.150",
+      "srcport": "49206"
+    },
+    "location": "EventChannel"
+  },
+  {
+    "timestamp": "2026-11-24T14:36:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41218",
+      "srcuser": "git"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:37:10.000Z",
+    "rule": {
+      "id": "31533",
+      "level": 8,
+      "description": "Web application attack: unauthorized admin access attempt",
+      "groups": [
+        "web",
+        "accesslog",
+        "attack"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "45.33.32.156",
+      "url": "/api/v1/user?id=1%20OR%201=1",
+      "action": "blocked"
+    },
+    "location": "/var/log/nginx/access.log"
+  },
+  {
+    "timestamp": "2026-11-24T14:38:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41219",
+      "srcuser": "postgres"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:39:10.000Z",
+    "rule": {
+      "id": "31101",
+      "level": 5,
+      "description": "Apache: Directory traversal attempt",
+      "groups": [
+        "web",
+        "accesslog",
+        "attack"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "45.33.32.156",
+      "url": "/api/v1/user?id=1%20OR%201=1",
+      "action": "blocked"
+    },
+    "location": "/var/log/nginx/access.log"
+  },
+  {
+    "timestamp": "2026-11-24T14:40:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user"
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "198.51.100.23",
+      "srcuser": "admin"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:40:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41220",
+      "srcuser": "root"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:41:10.000Z",
+    "rule": {
+      "id": "31103",
+      "level": 7,
+      "description": "SQL injection attempt in query string",
+      "groups": [
+        "web",
+        "accesslog",
+        "attack"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "45.33.32.156",
+      "url": "/api/v1/user?id=1%20OR%201=1",
+      "action": "blocked"
+    },
+    "location": "/var/log/nginx/access.log"
+  },
+  {
+    "timestamp": "2026-11-24T14:42:15.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ],
+      "mitre": {
+        "id": [
+          "T1110.001"
+        ],
+        "tactic": [
+          "Credential Access"
+        ],
+        "technique": [
+          "Password Guessing"
+        ]
+      }
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "41221",
+      "srcuser": "admin"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:43:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user"
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "198.51.100.23",
+      "srcuser": "admin"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:43:10.000Z",
+    "rule": {
+      "id": "31106",
+      "level": 6,
+      "description": "XSS attempt detected in HTTP parameter",
+      "groups": [
+        "web",
+        "accesslog",
+        "attack"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "45.33.32.156",
+      "url": "/api/v1/user?id=1%20OR%201=1",
+      "action": "blocked"
+    },
+    "location": "/var/log/nginx/access.log"
+  },
+  {
+    "timestamp": "2026-11-24T14:45:10.000Z",
+    "rule": {
+      "id": "31533",
+      "level": 8,
+      "description": "Web application attack: unauthorized admin access attempt",
+      "groups": [
+        "web",
+        "accesslog",
+        "attack"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "45.33.32.156",
+      "url": "/api/v1/user?id=1%20OR%201=1",
+      "action": "blocked"
+    },
+    "location": "/var/log/nginx/access.log"
+  },
+  {
+    "timestamp": "2026-11-24T14:46:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user"
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "198.51.100.23",
+      "srcuser": "admin"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T14:47:10.000Z",
+    "rule": {
+      "id": "31101",
+      "level": 5,
+      "description": "Apache: Directory traversal attempt",
+      "groups": [
+        "web",
+        "accesslog",
+        "attack"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "45.33.32.156",
+      "url": "/api/v1/user?id=1%20OR%201=1",
+      "action": "blocked"
+    },
+    "location": "/var/log/nginx/access.log"
+  },
+  {
+    "timestamp": "2026-11-24T14:49:10.000Z",
+    "rule": {
+      "id": "31103",
+      "level": 7,
+      "description": "SQL injection attempt in query string",
+      "groups": [
+        "web",
+        "accesslog",
+        "attack"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "45.33.32.156",
+      "url": "/api/v1/user?id=1%20OR%201=1",
+      "action": "blocked"
+    },
+    "location": "/var/log/nginx/access.log"
+  },
+  {
+    "timestamp": "2026-11-24T15:05:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "42500",
+      "srcuser": "support"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T15:07:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "42501",
+      "srcuser": "support"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T15:09:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "42502",
+      "srcuser": "support"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T15:11:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "42503",
+      "srcuser": "support"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T15:13:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "42504",
+      "srcuser": "support"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T15:15:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "42505",
+      "srcuser": "support"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T15:17:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5",
+      "srcport": "42506",
+      "srcuser": "support"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T15:19:00.000Z",
+    "rule": {
+      "id": "5712",
+      "level": 10,
+      "description": "sshd: brute force trying to get access to the system",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_failed"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "185.220.101.5"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T15:20:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "194.26.29.112",
+      "srcport": "50100",
+      "srcuser": "miner"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T15:22:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "194.26.29.112",
+      "srcport": "50101",
+      "srcuser": "miner"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T15:24:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "194.26.29.112",
+      "srcport": "50102",
+      "srcuser": "miner"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T15:26:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "194.26.29.112",
+      "srcport": "50103",
+      "srcuser": "miner"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T15:28:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "194.26.29.112",
+      "srcport": "50104",
+      "srcuser": "miner"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T15:30:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "194.26.29.112",
+      "srcport": "50105",
+      "srcuser": "miner"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T15:32:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "194.26.29.112",
+      "srcport": "50106",
+      "srcuser": "miner"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T15:34:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "194.26.29.112",
+      "srcport": "50107",
+      "srcuser": "miner"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T15:36:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "194.26.29.112",
+      "srcport": "50108",
+      "srcuser": "miner"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T15:38:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "194.26.29.112",
+      "srcport": "50109",
+      "srcuser": "miner"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T15:40:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "194.26.29.112",
+      "srcport": "50110",
+      "srcuser": "miner"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T15:42:00.000Z",
+    "rule": {
+      "id": "5710",
+      "level": 5,
+      "description": "sshd: Attempt to login using a non-existent user",
+      "groups": [
+        "syslog",
+        "sshd"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "194.26.29.112",
+      "srcport": "50111",
+      "srcuser": "miner"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T15:44:00.000Z",
+    "rule": {
+      "id": "5712",
+      "level": 10,
+      "description": "sshd: brute force trying to get access to the system",
+      "groups": [
+        "syslog",
+        "sshd"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "194.26.29.112",
+      "srcport": "50112",
+      "srcuser": "miner"
+    },
+    "location": "journald"
+  },
+  {
+    "timestamp": "2026-11-24T15:46:00.000Z",
+    "rule": {
+      "id": "5712",
+      "level": 10,
+      "description": "sshd: brute force trying to get access to the system",
+      "groups": [
+        "syslog",
+        "sshd"
+      ]
+    },
+    "agent": {
+      "id": "001",
+      "name": "AWS-Server",
+      "ip": "100.120.55.48"
+    },
+    "manager": {
+      "name": "wazuh-server"
+    },
+    "data": {
+      "srcip": "194.26.29.112",
+      "srcport": "50113",
+      "srcuser": "miner"
+    },
+    "location": "journald"
+  }
+]

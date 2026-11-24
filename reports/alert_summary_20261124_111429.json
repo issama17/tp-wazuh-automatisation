@@ -1,0 +1,147 @@
+[
+  {
+    "src_ip": "185.220.101.5",
+    "period": "2026-11-24T14:00:00+00:00",
+    "count": 24,
+    "max_severity": 10,
+    "hosts": [
+      "AWS-Server"
+    ],
+    "rules": [
+      "5710",
+      "5712"
+    ],
+    "score": 100,
+    "country": "DE",
+    "total_reports": 449,
+    "reputation": "high_risk",
+    "enriched": true
+  },
+  {
+    "src_ip": "45.33.32.156",
+    "period": "2026-11-24T14:00:00+00:00",
+    "count": 18,
+    "max_severity": 8,
+    "hosts": [
+      "AWS-Server"
+    ],
+    "rules": [
+      "31101",
+      "31103",
+      "31106",
+      "31533"
+    ],
+    "score": 0,
+    "country": "US",
+    "total_reports": 4,
+    "reputation": "low",
+    "enriched": true
+  },
+  {
+    "src_ip": "100.121.101.97",
+    "period": "2026-11-24T14:00:00+00:00",
+    "count": 14,
+    "max_severity": 10,
+    "hosts": [
+      "AWS-Server"
+    ],
+    "rules": [
+      "5503",
+      "5710",
+      "5712"
+    ],
+    "score": 60,
+    "country": "LAN/VPN",
+    "total_reports": 0,
+    "reputation": "suspicious",
+    "enriched": true
+  },
+  {
+    "src_ip": "194.26.29.112",
+    "period": "2026-11-24T15:00:00+00:00",
+    "count": 14,
+    "max_severity": 10,
+    "hosts": [
+      "AWS-Server"
+    ],
+    "rules": [
+      "5710",
+      "5712"
+    ],
+    "score": 0,
+    "country": "RU",
+    "total_reports": 4,
+    "reputation": "low",
+    "enriched": true
+  },
+  {
+    "src_ip": "185.220.101.5",
+    "period": "2026-11-24T15:00:00+00:00",
+    "count": 8,
+    "max_severity": 10,
+    "hosts": [
+      "AWS-Server"
+    ],
+    "rules": [
+      "5710",
+      "5712"
+    ],
+    "score": 100,
+    "country": "DE",
+    "total_reports": 449,
+    "reputation": "high_risk",
+    "enriched": true
+  },
+  {
+    "src_ip": "192.168.3.150",
+    "period": "2026-11-24T14:00:00+00:00",
+    "count": 7,
+    "max_severity": 4,
+    "hosts": [
+      "windows-host"
+    ],
+    "rules": [
+      "60106"
+    ],
+    "score": 60,
+    "country": "LAN/VPN",
+    "total_reports": 0,
+    "reputation": "suspicious",
+    "enriched": true
+  },
+  {
+    "src_ip": "198.51.100.23",
+    "period": "2026-11-24T14:00:00+00:00",
+    "count": 3,
+    "max_severity": 5,
+    "hosts": [
+      "AWS-Server"
+    ],
+    "rules": [
+      "5710"
+    ],
+    "score": 20,
+    "country": "LAN/VPN",
+    "total_reports": 0,
+    "reputation": "low",
+    "enriched": true
+  },
+  {
+    "src_ip": "100.95.52.73",
+    "period": "2026-11-24T14:00:00+00:00",
+    "count": 2,
+    "max_severity": 5,
+    "hosts": [
+      "AWS-Server"
+    ],
+    "rules": [
+      "5710",
+      "5715"
+    ],
+    "score": 20,
+    "country": "LAN/VPN",
+    "total_reports": 0,
+    "reputation": "low",
+    "enriched": true
+  }
+]

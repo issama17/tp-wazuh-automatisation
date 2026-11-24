@@ -1,0 +1,32 @@
+[
+  {
+    "src_ip": "129.159.197.13",
+    "period": "2026-11-24T11:00:00+00:00",
+    "count": 12,
+    "max_severity": 5,
+    "hosts": [
+      "AWS-Server"
+    ],
+    "rules": [
+      "5710"
+    ],
+    "reputation": "suspicious",
+    "score": 60,
+    "enriched": true
+  },
+  {
+    "src_ip": "196.65.252.6",
+    "period": "2026-11-24T11:00:00+00:00",
+    "count": 4,
+    "max_severity": 5,
+    "hosts": [
+      "AWS-Server"
+    ],
+    "rules": [
+      "5710"
+    ],
+    "reputation": "low",
+    "score": 20,
+    "enriched": true
+  }
+]
