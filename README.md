@@ -74,7 +74,6 @@ tp_wazuh_starter/
 ├── reporter.py              # Export des synthèses d'audit horodatées (.csv et .json)
 ├── notifier.py              # Affichage console formaté et notification Webhook (HTTP POST)
 ├── main.py                  # Point d'entrée CLI (arguments et orchestration du pipeline)
-├── create_report.py         # Moteur de génération automatique du rapport PDF final
 ├── rapport_tp_wazuh.html    # Version web du rapport d'audit
 ├── Rapport_TP_Wazuh_Automatisation_Issam_ECHAHBOUNI.pdf # Rapport académique final (10 pages)
 ├── requirements.txt         # Dépendances Python

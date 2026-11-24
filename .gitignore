@@ -1,6 +1,9 @@
 # Clés d'API et variables d'environnement confidentielles
 .env
 
+# Scripts locaux de génération
+create_report.py
+
 # Cache Python et compilation
 __pycache__/
 *.py[cod]
